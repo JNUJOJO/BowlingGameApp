@@ -43,7 +43,7 @@ public class BowlingGameUnitTest {
     }
 
     @Test
-    public void testcomple1() {
+    public void testcomple0() {
         bowlingGame.roll(10);
         bowlingGame.roll(10);
         bowlingGame.roll(3);
