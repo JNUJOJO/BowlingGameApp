@@ -20,8 +20,8 @@ public class BowlingGameUnitTest {
 
     @Test
     public void test20_ten() {
-        bowlingGame.roll(5);
-        bowlingGame.roll(5);
+        bowlingGame.roll(6);
+        bowlingGame.roll(4);
         bowlingGame.roll(5);
         repeatedRoll(0,18);
         assertEquals(20, bowlingGame.score());
