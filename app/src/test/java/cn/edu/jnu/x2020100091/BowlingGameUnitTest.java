@@ -29,7 +29,7 @@ public class BowlingGameUnitTest {
 
     @Test
     public void test20zero1() {
-        repeatedRoll(1,21);
+        repeatedRoll(1,22);
         assertEquals(20, bowlingGame.score());
     }
 
