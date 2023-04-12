@@ -18,26 +18,28 @@ public class BowlingGameUnitTest {
         bowlingGame = new BowlingGame();
     }
 
-
     @Test
     public void test20ten() {
-        repeatedRoll(10,12);
-        assertEquals(300, bowlingGame.score());
+        bowlingGame.roll(5);
+        bowlingGame.roll(5);
+        bowlingGame.roll(5);
+        repeatedRoll(0,18);
+        assertEquals(20, bowlingGame.score());
     }
 
     @Test
     public void test20zero() {
-        repeatedRoll(0,21);
-        assertEquals(0, bowlingGame.score());
+        repeatedRoll(1,21);
+        assertEquals(20, bowlingGame.score());
     }
 
     @Test
     public void testcomple() {
-        bowlingGame.roll(3);
-        bowlingGame.roll(7);
+        bowlingGame.roll(5);
+        bowlingGame.roll(4);
         bowlingGame.roll(6);
         repeatedRoll(0,18);
-        assertEquals(22, bowlingGame.score());
+        assertEquals(15, bowlingGame.score());
     }
 
     @Test
