@@ -19,7 +19,7 @@ public class BowlingGameUnitTest {
     }
 
     @Test
-    public void test20ten() {
+    public void test20_ten() {
         bowlingGame.roll(5);
         bowlingGame.roll(5);
         bowlingGame.roll(5);
