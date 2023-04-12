@@ -46,8 +46,8 @@ public class BowlingGameUnitTest {
     public void testcomple0() {
         bowlingGame.roll(10);
         bowlingGame.roll(10);
-        bowlingGame.roll(3);
-        bowlingGame.roll(5);
+        bowlingGame.roll(4);
+        bowlingGame.roll(4);
         repeatedRoll(0,17);
         assertEquals(49, bowlingGame.score());
     }
