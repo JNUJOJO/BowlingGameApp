@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView out_score;
     BowlingGame game;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

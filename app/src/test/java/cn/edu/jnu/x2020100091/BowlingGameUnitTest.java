@@ -32,6 +32,14 @@ public class BowlingGameUnitTest {
         repeatedRoll(1,22);
         assertEquals(20, bowlingGame.score());
     }
+    @Test
+    public void test() {
+        bowlingGame.roll(6);
+        bowlingGame.roll(4);
+        bowlingGame.roll(5);
+        repeatedRoll(0,18);
+        assertEquals(20, bowlingGame.score());
+    }
 
     @Test
     public void testcomple1() {
